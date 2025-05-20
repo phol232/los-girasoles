@@ -100,4 +100,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para detalles
 
 ---
 
-Desarrollado por [Tu Nombre] para Los Girasoles Restaurante © 2025
+Desarrollado por PHOL TAQUIRI para Los Girasoles Restaurante © 2025
