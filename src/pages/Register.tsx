@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -120,7 +119,7 @@ export function Register() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-amber-600 text-white shadow-lg">
             <Layers className="h-8 w-8" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">EL BUEN SABOR</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">LOS GIRASOLES</h1>
           <p className="text-gray-600 text-lg">Sistema de Gestión de Restaurante</p>
         </div>
 

@@ -74,7 +74,7 @@ export function Login() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-amber-600 text-white shadow-lg">
             <Layers className="h-8 w-8" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">EL BUEN SABOR</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">LOS GIRASOLES</h1>
           <p className="text-gray-600 text-lg">Sistema de Gestión de Restaurante</p>
         </div>
 
@@ -232,7 +232,7 @@ export function Login() {
                   </div>
 
                   <div className="text-center text-xs text-gray-500">
-                    © 2025 EL BUEN SABOR - Sistema de Gestión v1.0.0
+                    © 2025 LOS GIRASOLES - Sistema de Gestión v1.0.0
                   </div>
                 </CardFooter>
               </form>

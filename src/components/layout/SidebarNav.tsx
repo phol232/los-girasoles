@@ -55,7 +55,7 @@ export function SidebarNav() {
         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-orange-600 text-white">
           <Layers className="h-5 w-5" />
         </div>
-        <span className="text-lg font-bold text-white">EL BUEN SABOR</span>
+        <span className="text-lg font-bold text-white">LOS GIRASOLES</span>
       </div>
 
       {/* Selector de restaurante (simulado) */}
