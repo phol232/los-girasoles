@@ -331,7 +331,7 @@ export function Settings() {
                         {method.enabled ? "Activo" : "Inactivo"}
                       </Badge>
                       <Button variant="ghost" size="sm">
-                        <Settings className="h-4 w-4" />
+                        <Settings />
                       </Button>
                     </div>
                   </div>

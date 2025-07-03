@@ -12,8 +12,28 @@ import {
   User,
 } from "lucide-react";
 
+type OrderItemStatus = "pending" | "cooking" | "ready";
+
+type OrderItem = {
+  id: number;
+  name: string;
+  status: OrderItemStatus;
+  time: string;
+};
+
+type Order = {
+  id: number;
+  table: number;
+  server: string;
+  time: string;
+  elapsed: string;
+  items: OrderItem[];
+  notes: string;
+  priority: string;
+};
+
 // Datos simulados para órdenes pendientes en cocina
-const pendingOrders = [
+const pendingOrders: Order[] = [
   {
     id: 1,
     table: 4,
@@ -71,8 +91,6 @@ const pendingOrders = [
     priority: "normal",
   }
 ];
-
-type OrderItemStatus = "pending" | "cooking" | "ready";
 
 export function Kitchen() {
   const [orders, setOrders] = useState(pendingOrders);
